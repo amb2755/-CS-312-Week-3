@@ -60,8 +60,8 @@ app.post("/", function (req, res) {
         });
     });
 
-    request.write(jsonData); // Write the data to the request
-    request.end(); // End the request
+    request.write(jsonData); 
+    request.end(); 
 });
 
 app.listen(3000, function () {
